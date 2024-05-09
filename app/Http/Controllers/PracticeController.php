@@ -17,7 +17,7 @@ class PracticeController extends Controller
 
     public function sample3()
     {
-        $test = 'test';
-            return view('practice3', ['testParam' => $test]);
+        // $test = 'test';
+            return view('practice3', ['testParam' => 'test']);
     }
 }
